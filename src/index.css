@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  background-color: black;
+}
+@theme {
+  --color-charcoal: #333333;
+  --color-lightCharcoal: #a5a5a5;
+  --color-orange: #f1a33b;
+}
+body {
+  app-region: drag;
+}
+button {
+  app-region: no-drag;
+}
