@@ -1,6 +1,6 @@
 # Linulator
 
-A simple and modern calculator desktop app built with **React**, **Vite**, **Tailwind CSS**, and **Electron**.
+A simple and modern calculator desktop app built with **React**, **Vite**, **Tailwind CSS**, and **Electron.JS**.
 
 ---
 
@@ -99,10 +99,6 @@ npm run build
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Electron](https://www.electronjs.org/)
-
----
-
-## 📝 License
 
 MIT
 
