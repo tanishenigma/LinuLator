@@ -1,47 +1,28 @@
-# Linulator
+# 🧮Linulator
 
 A simple and modern calculator desktop app built with **React**, **Vite**, **Tailwind CSS**, and **Electron.JS**.
 
 ---
 
-## ✨ Features
+## 🎥 Demo
 
-- ➕➖✖️➗ Perform basic arithmetic operations (add, subtract, multiply, divide)  
-- 🧮 Extra functions: **percent**, **invert (±)**, and **clear (AC)**  
-- 🎨 Responsive UI powered by Tailwind CSS  
-- ⌨️ Full keyboard + mouse support  
-- 💻 Cross-platform: runs on **Windows**, **macOS**, and **Linux**  
+![til](public/walkthrough.gif)
 
 ---
-## 📥 Install on Linux (.deb)
 
-You can download the latest `.deb` package directly from the [GitHub Releases](https://github.com/tanishenigma/linulator/releases) page.  
+## ✨ Features
 
-To install from the terminal:
+* ➗ Perform basic arithmetic operations (add, subtract, multiply, divide)
+* 🧮 Extra functions: **percent**, **invert (±)**, and **clear (AC)**
+* 🎨 Responsive UI powered by **Tailwind CSS**
+* ⌨️ Full **keyboard + mouse** support
+* 💻 Cross-platform: runs on **Windows**, **macOS**, and **Linux**
 
-```sh
-# Download the latest release (.deb)
-wget https://github.com/yourusername/linulator/releases/download/v0.0.1/linulator_0.0.1_amd64.deb
-
-# Install the package
-sudo dpkg -i linulator_0.0.1_amd64.deb
-
-# Fix missing dependencies (if any)
-sudo apt --fix-broken install
-
+---
 
 ## 🚀 Getting Started
 
-### 📦 Prerequisites
-
-- [Node.js](https://nodejs.org/) **v18 or newer**  
-- [npm](https://www.npmjs.com/) (comes with Node.js)  
-
----
-
 ### ⚙️ Installation
-
-Clone the repository and install dependencies:
 
 ```sh
 git clone https://github.com/yourusername/linulator.git
@@ -53,17 +34,26 @@ npm install
 
 ### 🛠 Development
 
-To start the app in development mode (with hot reload):
+Run React in dev mode (with hot reload):
 
 ```sh
 npm run dev
 ```
 
-To launch the Electron app:
+Running with ElectronJS
+
+Electron powers the desktop app experience.
+To run Linulator inside an Electron window, use:
 
 ```sh
 npm start
 ```
+
+* Starts Vite (serves the React app).
+* Launches Electron with main.js.
+* Opens a desktop window running your React + Tailwind UI.
+
+Whenever you edit code, React auto-reloads, and Electron refreshes the app window. 🚀
 
 ---
 
@@ -95,13 +85,11 @@ npm run build
 
 ## 🛠 Technologies Used
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Electron](https://www.electronjs.org/)
-
-MIT
+* [React](https://react.dev/)
+* [Vite](https://vitejs.dev/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Electron](https://www.electronjs.org/)
 
 ---
 
-> Made with 🖱️& ⌨️ using React,
+> Made by **TanishEnigma** with 🖱️ + ⌨️
